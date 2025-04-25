@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK-10</title>
+</head>
+<body>
+    <style>
+    .container {
+      display: flex;
+      align-items: flex-start;
+      margin-top: 50px;
+    }
+    .left-section {
+      text-align: center;
+      margin-right: 20px;
+    }
+    .left-section img {
+      width: 500px; 
+      height: 230px;
+    }
+    .right-section {
+      background-color: #4FC3F7; 
+      width: 150px;
+      height: 250px;
+    }
+    .name {
+      font-size: 14px;
+      color: gray;
+      margin-bottom: 5px;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      padding: 20px;
+      background-color: #fce4ec; /* Light pink background (gap area) */
+    }
+    .grid-item {
+      background-color: #9e9e9e; /* Grey background */
+      height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    .grid-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+
+<h3>1. Replicate below image</h3>
+
+
+<div class="container">
+  <div class="left-section">
+    <div class="name">Chris Tomlin</div>
+    <img src="https://th.bing.com/th/id/OIP.2ZgrJZ0iNwHsDFaOjTI7sQHaD4?w=1200&h=630&rs=1&pid=ImgDetMain" alt="Chris Tomlin">
+  </div>
+  
+  <div class="right-section"></div>
+</div>
+
+<h3>2. Replicate below image. Add images in 8 divs.</h3>
+<div class="grid-item"></div>
+
+<div class="grid-container">
+  <div class="grid-item"><img src="https://images.pexels.com/photos/63764/pexels-photo-63764.jpeg?cs=srgb&dl=car-cars-lamborghini-aventador-63764.jpg&fm=jpg" alt="Image 1"></div>
+  <div class="grid-item"><img src="https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg?cs=srgb&dl=action-asphalt-auto-210019.jpg&fm=jpg" alt="Image 2"></div>
+  <div class="grid-item"><img src="https://th.bing.com/th/id/OIP.OmszxJcT8NO06xdukAihmwHaE7?rs=1&pid=ImgDetMain" alt="Image 3"></div>
+  <div class="grid-item"><img src="https://th.bing.com/th/id/OIP.1C4uQn5s-hyi7XaW_25m4wHaFj?rs=1&pid=ImgDetMain" alt="Image 4"></div>
+  <div class="grid-item"><img src="https://th.bing.com/th/id/OIP.gzQaj8IP8nYPDTXv8ZXXHwHaE8?rs=1&pid=ImgDetMain" alt="Image 5"></div>
+  <div class="grid-item"><img src="https://wallpaperaccess.com/full/40045.jpg" alt="Image 6"></div>
+  <div class="grid-item"><img src="https://images.pexels.com/photos/810357/pexels-photo-810357.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="Image 7"></div>
+  <div class="grid-item"><img src="https://th.bing.com/th/id/OIP.miHtRry8du7aaQACz9U3mwHaE8?w=3699&h=2466&rs=1&pid=ImgDetMain" alt="Image 8"></div>
+</div>
+<div class="grid-item"></div>
+
+
+</body>
+</html>
+
+
+
+
+
